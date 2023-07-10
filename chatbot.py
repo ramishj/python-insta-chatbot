@@ -22,7 +22,7 @@ def generate_chat_reply(message):
 
     headers = {
         "Content-Type": "application/json",
-        "Authorization": "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"
+        "Authorization": #OpenAI API key
     }
 
     response = requests.post(url, headers=headers, data=json.dumps(payload))
